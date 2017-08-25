@@ -1,0 +1,17 @@
+---
+layout: post
+title:  nan
+date:   2017-08-25 11:10:12 +0100
+categories: undefined
+---
+
+nan
+
+{% highlight python %}
+def test(input):
+  print float("inf") * input
+
+test(0)
+#=> prints 'nan' to STDOUT.
+{% endhighlight %}
+
